@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    font-family: 'Nunito Sans';
+}
+.c-site-header{
+    background-color: #3C6E71;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    }
+
+    .nav-container{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+
+.avatar {
+    background-image: url("images/IMG-2139 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+   }
+
+   .nav-container a {
+    color: #FFFFFF;
+    display: inline-flex;
+    flex-direction: row ;
+    padding-left:20px ; 
+    text-decoration: none;
+    }
+
+
+
+.container{
+    height: 400px;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20vw;
+}
+
+#home{
+       background-color: #D9D9D9;
+    
+}
+
+.home-text{
+    width: 550px;
+       
+}
+
+
+.pfp img{
+    border-radius: 800px;
+    width: 300px;
+    height: 300px;
+}
+
+.football-text{
+    width: 450px;
+    height: 300px;
+    
+}
+
+#football{
+    background-color: #FFFFFF;
+    
+}
+.football-text h1{
+    color: #3C6E71;
+}
+
+
+#cooking{
+    background-color: #284B63;
+
+
+}
+
+.cooking-text{
+    width: 500px;
+    padding-left: 42px; 
+    color: #D9D9D9;
+    
+}
+.dish img {
+    width: 450px;
+    height: 300px;
+}
+
+#technology{
+    background-color: #FFFFFF;
+    height: 300px;
+    }
+
+
+#technology h1{
+    color: #3C6E71;
+    
+}
+
+.technology-text{
+    width: 900px;
+
+}
+
+#books{
+    background-color: #D9D9D9;
+}
+
+.book-img img{
+    width: 200px;
+    height: 300px;
+}
+
+.book-text {
+    width: 500px;
+    padding-left: 42px; 
+    color: black;
+    
+    }
+
+
+.c-site-footer{
+    background-color: #3C6E71; 
+    width: 100%;
+    height: 50px;  
+    color: #FFFFFF;  
+    display: flex;   
+    justify-content: center;
+           
+    }
+    .c-site-footer p{
+        padding: 7px;
+
+    }
+
+
+
+
